@@ -5,4 +5,4 @@ jobs:
       - image: circleci/ruby:2.4.1
     steps:
       - checkout
-      - run: echo "My first Hello World with Circle CI"
+      - run: notacommand "My first Hello World with Circle CI"
